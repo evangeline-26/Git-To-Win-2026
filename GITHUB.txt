@@ -1,0 +1,61 @@
+PROGRAM 1
+
+def process_string(input_str):
+    words = input_str.split()
+    result = []
+
+    for i, word in enumerate(words):
+        if i % 2 == 0:
+            # Replace vowels in every alternate word
+            word = ''.join('*' if char.lower() in 'aeiou' else char for char in word)
+        else:
+            # Reverse every second word
+            word = word[::-1]
+        result.append(word)
+
+    return ' '.join(result)
+
+# Example usage
+input_str = input("Enter a string: ")
+output_str = process_string(input_str)
+print("Processed string:", output_str)
+
+OUTPUT
+Enter shape (square/triangle): triangle
+Enter position (x y): 2 3
+Enter size: 4
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 0
+0 0 0 1 1 0 0 0 0 0
+0 0 0 1 1 1 0 0 0 0
+0 0 0 1 1 1 1 0 0 0
+...
+
+
+PROGRAM 2
+
+def process_string(input_str):
+    words = input_str.split()
+    result = []
+
+    for i, word in enumerate(words):
+        if i % 2 == 0:
+            # Replace vowels in every alternate word
+            word = ''.join('*' if char.lower() in 'aeiou' else char for char in word)
+        else:
+            # Reverse every second word
+            word = word[::-1]
+        result.append(word)
+
+    return ' '.join(result)
+
+# Example usage
+input_str = input("Enter a string: ")
+output_str = process_string(input_str)
+print("Processed string:", output_str)
+
+
+OUTPUT
+Enter a string: EVANGELINE
+Processed string: *V*NG*L*N*
