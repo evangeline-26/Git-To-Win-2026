@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ramakrishna Tuition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ramakrishna Tuition</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login1.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Your Path to Success</h2>
+            <p>Quality education with expert faculty and modern learning techniques.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ramakrishna Tuition. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ramakrishna Tuition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Login to Your Account</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ramakrishna Tuition. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Ramakrishna Tuition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sign Up</h1>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login1.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Create an Account</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ramakrishna Tuition. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ramakrishna Tuition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login1.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Ramakrishna Tuition</h2>
+            <p>We provide top-quality education with expert faculty and modern teaching methods.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ramakrishna Tuition. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ramakrishna Tuition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login1.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>Email: contact@ramakrishnatuition.com</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Address: Coimbatore, Tamil Nadu</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ramakrishna Tuition. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: black; /* Set default text color to black */
+}
+
+body {
+    background: url('https://png.pngtree.com/background/20210711/original/pngtree-summer-vacation-tuition-blue-literary-poster-banner-background-picture-image_1115029.jpg') 
+                no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: black; /* Ensure body text is black */
+}
+
+/* Specific styling for login and signup pages */
+.login-page, .signup-page {
+    color: black; /* Set text color to black for login and signup pages */
+}
+
+/* Header & Navigation */
+header {
+    background: #0056b3;
+    color: white; /* Keep header text white */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    background: #004494;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Keep links white */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: black; /* Set headings text to black */
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: black; /* Set labels text to black */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0056b3;
+    color: white; /* Keep button text white */
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+} 
+
+button:hover {
+    background: #003f7f;
+}
+
+/* Footer */
+footer {
+    background: #004494;
+    color: white; /* Keep footer text white */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        padding: 5px;
+    }
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
